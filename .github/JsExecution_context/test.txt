@@ -1,0 +1,10 @@
+javascript execution context :
+1 ) Gobal Executio context
+2 ) Fuction Execution context
+3 ) Eval Execution context
+
+how execution occur : 
+Memory creation phase
+Execution phase 
+
+we practise in browser in source tab.
