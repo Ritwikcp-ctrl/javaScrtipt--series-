@@ -1,0 +1,20 @@
+<script>
+
+    const div = document.currentElement("div")
+    console.log(div);
+
+    div.className= "main"
+    div.id = Math.round(Math.random() * 10+1)
+    div.setAttribute("title","genrated title")
+    div.style.padding = "12px"
+    div.innerText = "sunny rai"
+    //or
+    const addText = document.createTextNode("sunny rai")
+    div.appendChild(addText)
+    //by performing these steps over the div using dom manipulation 
+    //it will not not apper on the Body 
+    //to be seen on the body 
+    document.body.appendChild(div)
+    
+    
+</script>
